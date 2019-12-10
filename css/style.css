@@ -198,3 +198,68 @@
   }
 }
 /* /soluzione esercizio 12 */
+
+/* soluzione esercizio 13 */
+.well {
+  overflow: hidden;
+}
+.ex-13-button:hover .ex-13-top-white {
+  animation: move_ex_13_top 2s linear;
+}
+@keyframes move_ex_13_top {
+  form {
+    top: calc(-10px);
+    left: calc(10%);
+  }
+  15% {
+    top: calc(-10px);
+    left: calc(100% - 30px);
+  }
+  35% {
+    top: calc(100% - 10px);
+    left: calc(100% - 30px);
+  }
+  55% {
+    top: calc(100% - 10px);
+    left: calc(-30px);
+  }
+  75% {
+    top: calc(-10px);
+    left: calc(-30px);
+  }
+  to {
+    top: calc(-10px);
+    left: calc(10%);
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: move_ex_13_bottom 2s linear;
+}
+@keyframes move_ex_13_bottom {
+  form {
+    bottom: calc(-10px);
+    right: calc(20%);
+  }
+  15% {
+    bottom: calc(-10px);
+    right: calc(100% - 30px);
+  }
+  35% {
+    bottom: calc(100% - 10px);
+    right: calc(100% - 30px);
+  }
+  55% {
+    bottom: calc(100% - 10px);
+    right: calc(-30px);
+  }
+  75% {
+    bottom: calc(-10px);
+    right: calc(-30px);
+  }
+  to {
+    bottom: calc(-10px);
+    right: calc(20%);
+  }
+}
+/* /soluzione esercizio 13 */
