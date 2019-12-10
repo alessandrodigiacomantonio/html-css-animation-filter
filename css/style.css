@@ -80,6 +80,15 @@
   filter: grayscale(0.5) sepia(0.5);
 }
 /* /soluzione esercizio 7 */
+/* soluzione esercizio 8 */
+.ex-8-img {
+  transition: 2s;
+}
+.ex-8-img:hover {
+  filter: grayscale(0.5) sepia(0.5);
+  border-radius: 20px;
+}
+/* /soluzione esercizio 8 */
 
 
 .ex-9-img {
