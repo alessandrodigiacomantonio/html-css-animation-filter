@@ -38,7 +38,15 @@
     width: 100px;
     height: 100px;
     background: red;
+    opacity: 1;
+    transition: opacity 1s;
 }
+/* soluzione esercizio 4 */
+.ex-4-square:hover {
+  opacity: 0;
+}
+/* /soluzione esercizio 4 */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
