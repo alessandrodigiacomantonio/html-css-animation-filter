@@ -121,8 +121,26 @@
 /* /soluzione esercizio 10 */
 
 .ex-11-icon {
+    position: relative;
     font-size: 60px;
 }
+/* soluzione esercizio 11 */
+.ex-11-icon:hover {
+  animation: spin_ex_11 2s 1 linear;
+}
+@keyframes spin_ex_11 {
+  from {
+    transform: rotate(0);
+  }
+  90% {
+    transform: rotate(275deg)
+  }
+  to {
+    transform: rotate(-0deg)
+  }
+}
+/* /soluzione esercizio 11 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
