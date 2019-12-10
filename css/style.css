@@ -105,8 +105,21 @@
 /* /soluzione esercizio 9 */
 
 .ex-10-icon {
+    position: relative;
     font-size: 60px;
+    animation: spin_ex_10 1s infinite linear;
 }
+/* soluzione esercizio 10 */
+@keyframes spin_ex_10 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+/* /soluzione esercizio 10 */
+
 .ex-11-icon {
     font-size: 60px;
 }
