@@ -8,14 +8,20 @@
 .ex-1-square:hover {
   background-color: red;
 }
-
-
+/* /soluzione esercizio 1 */
 
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 2s
 }
+/* soluzione esercizio 2 */
+.ex-2-square:active {
+  width: 100%;
+}
+/* /soluzione esercizio 2 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
